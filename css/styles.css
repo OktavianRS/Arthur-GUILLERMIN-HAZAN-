@@ -1,0 +1,202 @@
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
+body{
+    font-family: "Gentinum book basic", "open sans",Arial;
+   background: url("http://www.motto.net.ua/old_site//img/textures/1283882746_CBE5F2EDE8E520F4EEEDFB203331203331.jpg");
+    font-size: 14px;
+    width:100%;
+    margin: auto;
+}
+.site{
+   
+     width: auto;
+    font-size: 14px;
+    width: 1440px;
+    margin: auto;
+    background: white;
+}
+a{
+    text-decoration: none;
+}
+header{
+    margin: auto;
+   width: 1440px;
+    height: 770px;
+     background: url(../img/nature.jpg) no-repeat;
+    background-size: cover;
+}
+
+.head{
+    width: 700px;
+    margin: auto;
+    padding-top: 530px;
+}
+h1{
+    color: #fff;
+    font-size: 60px;
+    font-family: "Gentinum book basic";
+}
+h2{
+    color: rgba(215,215,215,215);
+    font-size: 29px;
+      font-family: "Gentinum book basic";
+    font-style: italic;
+    padding-top: 25px;
+}
+h4{
+    font-family: "open sans";
+    color: rgba(215,215,215,215);
+    padding-top: 15px;
+    font-size: 20px;
+    font-weight: 600;
+   
+}
+h3{
+  display: inline-block;
+    color: #fff;
+     font-family: "open sans";
+    font-size: 16px;
+    
+}
+.portret{
+    display: inline-block;
+    background: url(../img/portret.jpg);
+    height: 20px;
+    width: 21px;
+    border-radius: 50%;
+    background-size: cover; 
+}
+.contact{
+    color: #fff;
+}
+.icons{
+    display: inline-block;
+    color: #fff;
+  padding-left: 417px;
+}
+.container{
+     width: 700px;
+    margin: auto;
+}
+section{
+    
+}
+.quote{
+    color: #695858;
+}
+
+p,li{
+    padding-top: 30px;
+    padding-bottom: 30px;
+     font-family: "Gentinum book basic";
+    font-size: 21px;
+
+}
+.fa-circle{
+    font-size: 12px;
+    padding-right: 5px;
+  
+}
+
+a{
+    display: block;
+     text-decoration: none;
+    color: #815a5a;
+    font-size: 14px;
+    font-family: "Gentinum book basic";
+    text-align: center;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+}
+.fa-angle-up{
+    padding-top: 20px;
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    color: #815a5a;
+}
+
+.share {
+    background: url(../img/share.jpg);
+    width: 100%;
+    height:253px;
+}
+
+.green_share {
+    font-size: 15px;
+    color: #4fb42a;
+}
+.article{
+    border: 1px solid;
+    border-radius: 40px;
+   padding: 20px;
+   margin-top: 110px;
+    
+}
+.right_footer{
+    float: left;
+    display: block;
+    width: 50%;
+    height: 360px;
+    background-size: cover;
+    background:  url(../img/left.jpg) no-repeat;
+    
+}
+.left_footer{
+     float: left;
+    display: block;
+    width: 50%;
+    height: 360px;
+    background-size: cover;
+    background: url(../img/right.jpg) no-repeat ;
+    
+}
+.next {
+    font-size: 15px;
+  font-family: "OpenSans";
+    color: #fff;
+    text-transform: uppercase;
+    padding-left: 66px;
+    padding-top: 70px;
+    font-weight: bold;
+}
+
+
+.citate {
+   
+  font-size: 35px;
+  font-family: "GentiumBookBasic";
+  color:#fff;
+  line-height: 1.143;
+  padding-left: 66px;
+ padding-top:40px ;
+  
+
+
+}
+
+.last_citate {
+   padding-top: 10px;
+  font-size: 26px;
+  font-family: "GentiumBookBasic";
+  color: #fff;
+  line-height: 1.143;
+  padding-left: 66px;
+
+}
